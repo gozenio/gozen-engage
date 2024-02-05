@@ -16,7 +16,7 @@
  /**
   * Set Wpdb globaly
   */
-
+if ( ! defined( 'ABSPATH' ) ) exit; 
 global $wpdb;
 
 /**

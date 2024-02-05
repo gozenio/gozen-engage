@@ -4,6 +4,7 @@
  * Login status
  * @var boolean 
  */
+if ( ! defined( 'ABSPATH' ) ) exit; 
 
 $status = (isset($_COOKIE['gz_engage_access_token'])) ;
 

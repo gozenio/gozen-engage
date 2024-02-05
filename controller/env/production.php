@@ -1,9 +1,5 @@
 <?php
-
-if(!defined('WP_DEBUG')){
-    define('WP_DEBUG',true);
-}
-
+if ( ! defined( 'ABSPATH' ) ) exit; 
 define('GOZEN_ENGAGE_API_URI',"https://services.engage.gozen.io/v1");
 define('GOZEN_ENGAGE_DASHBOARD_URI',"https://app.engage.gozen.io/");
 define('GOZEN_ENGAGE_RE_URI',"https://engage.gozen.io/");

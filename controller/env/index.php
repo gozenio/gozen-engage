@@ -3,7 +3,7 @@
  * check the current in env with 'wp_get_environment_type'.
  * and inculde Env variable based on current enviroment.
  */
-
+if ( ! defined( 'ABSPATH' ) ) exit; 
 switch(wp_get_environment_type()){
 
     case "development":

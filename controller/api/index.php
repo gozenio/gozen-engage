@@ -1,7 +1,7 @@
 <?php
 
 //Required Files.
-
+if ( ! defined( 'ABSPATH' ) ) exit; 
 require_once(GOZEN_ENGAGE_PATH.'pages/login.php');
 require_once(GOZEN_ENGAGE_PATH.'pages/index.php');
 require_once(GOZEN_ENGAGE_PATH.'pages/initScript.php');
