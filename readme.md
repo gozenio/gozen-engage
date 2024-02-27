@@ -1,5 +1,5 @@
 === GoZen Engage ===
-Contributors: GozenHQ
+Contributors: OptinlyHQ
 Donate link:
 Tags:  Gamification, Calculators, Online forms , online survey , form builder, popups
 Requires at least: 4.0
